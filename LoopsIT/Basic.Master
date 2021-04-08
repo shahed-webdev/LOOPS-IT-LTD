@@ -15,16 +15,16 @@
     <script src="/bootstrap/js/bootstrap.min.js"></script>
     <!-- Bootstrap Date-Picker Plugin -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-    <script src="/JQ/GreetingPlugin.js"></script>
+    <script src="~/JQ/GreetingPlugin.js"></script>
 
-    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" rel="stylesheet" />
     <!--font-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-    <link href="/CSS/Basic.css" rel="stylesheet" />
-    <link href="/CSS/Gridview.css" rel="stylesheet" />
-    <link href="/CSS/All_Page_Print.css" rel="stylesheet" />
+    <link href="~/CSS/Basic.css" rel="stylesheet" />
+    <link href="~/CSS/Gridview.css" rel="stylesheet" />
+    <link href="~/CSS/All_Page_Print.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server" />
     <!--[if lt IE 9]>

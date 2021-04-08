@@ -40,14 +40,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AjaxControlToolkit, Version=1.0.10301.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\AjaxControlToolkit-1.0.10301.0.1.0.10301.0\lib\net20\AjaxControlToolkit.dll</HintPath>
-    </Reference>
-    <Reference Include="AjaxMin, Version=4.97.4951.28478, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\SIKKHAOY\Sikkhaloy\bin\AjaxMin.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -116,6 +108,7 @@
     <Content Include="CSS\Basic.css" />
     <Content Include="CSS\bootstrap-multiselect.css" />
     <Content Include="CSS\Gridview.css" />
+    <Content Include="CSS\Image\basisMember.jpg" />
     <Content Include="CSS\Image\Body_BG.png" />
     <Content Include="CSS\Image\CheckBox.png" />
     <Content Include="CSS\Image\Collaps_Ico.png" />
@@ -127,13 +120,18 @@
     <Content Include="CSS\Image\RadioButton.png" />
     <Content Include="CSS\Login.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Home\css\bootstrap-responsive.css" />
+    <Content Include="Home\css\bootstrap.css" />
+    <Content Include="Home\css\bootstrap.min.css" />
     <Content Include="Home\css\default.css" />
     <Content Include="Home\css\animate.css" />
     <Content Include="Home\css\bootstrap-responsive.min.css" />
     <Content Include="Home\css\flexslider.css" />
+    <Content Include="Home\css\font-awesome-ie7.css" />
+    <Content Include="Home\css\font-awesome.css" />
     <Content Include="Home\css\overwrite.css" />
     <Content Include="Home\css\prettyPhoto.css" />
-    <Content Include="Home\css\style.css" />
+    <Content Include="Home\css\home-page.css" />
     <Content Include="Home\font\fontawesome-webfont.svg" />
     <Content Include="Home\img\bg_direction_nav.png" />
     <Content Include="Home\img\blog\img1.jpg" />
@@ -155,11 +153,12 @@
     <Content Include="Home\img\prettyPhoto\default\sprite_prev.png" />
     <Content Include="Home\img\prettyPhoto\default\sprite_x.png" />
     <Content Include="Home\img\prettyPhoto\default\sprite_y.png" />
-    <Content Include="Home\img\team\img-1.jpg" />
-    <Content Include="Home\img\team\img-2.jpg" />
-    <Content Include="Home\img\team\img-3.jpg" />
-    <Content Include="Home\img\team\img-4.jpg" />
-    <Content Include="Home\img\team\img-5.jpg" />
+    <Content Include="Home\img\team\a.rahman.jpg" />
+    <Content Include="Home\img\team\Ishak.JPG" />
+    <Content Include="Home\img\team\Mahbub.jpg" />
+    <Content Include="Home\img\team\moni.jpg" />
+    <Content Include="Home\img\team\Muhib.JPG" />
+    <Content Include="Home\img\team\Satter.jpg" />
     <Content Include="Home\img\works\1.png" />
     <Content Include="Home\img\works\10.png" />
     <Content Include="Home\img\works\2.png" />
@@ -179,10 +178,8 @@
     <Content Include="Home\js\jquery-hover-effect.js" />
     <Content Include="Home\js\jquery.flexslider.js" />
     <Content Include="Home\js\jquery.js" />
-    <Content Include="Home\js\jquery.localscroll-1.2.7-min.js" />
     <Content Include="Home\js\jquery.nav.js" />
     <Content Include="Home\js\jquery.prettyPhoto.js" />
-    <Content Include="Home\js\jquery.scrollTo.js" />
     <Content Include="JQ\bootstrap-multiselect.js" />
     <Content Include="JQ\GreetingPlugin.js" />
     <Content Include="Login.aspx" />
@@ -503,13 +500,13 @@
     <Content Include="Home\font\fontawesome-webfont.ttf" />
     <Content Include="Home\font\fontawesome-webfont.woff" />
     <Content Include="Home\font\FontAwesome.otf" />
-    <Content Include="Home\img\icons\Thumbs.db" />
     <Content Include="Design.Master" />
     <Content Include="Handler\User_Photo.ashx" />
     <Content Include="Bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

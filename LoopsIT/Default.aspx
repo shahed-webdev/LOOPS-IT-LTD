@@ -12,10 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Computer Software Companies in Bangladesh. List of Software Companies in Bangladesh. Offshore Development Center (ODC). Computer Hardware & Software Companies in Bangladesh Computer Software Company List Internet Service Providers Web design Companies" />
     <meta name="author" content="Loops IT" />
-
-    <link href="Home/css/style.css?v=1.1" rel="stylesheet" />
-
-
+    
+    <link href="Home/css/home-page.css?v=1.0.1" rel="stylesheet" />
     <style>
         #map-canvas { width: 100%; height: 500px; }
 
@@ -601,15 +599,17 @@
 
         <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
 
-        <script src="Home/js/jquery.js"></script>
+    <script src="Home/js/jquery.js"></script>
+        <script src="Home/js/animate.js"></script>
         <script src="Home/js/bootstrap.min.js"></script>
+        <script src="Home/js/custom.js"></script>
+        <script src="Home/js/inview.js"></script>
+        <script src="Home/js/isotope.js"></script>
+        <script src="Home/js/jquery-hover-effect.js"></script>
+        <script src="Home/js/jquery.flexslider.js"></script>
+       
         <script src="Home/js/jquery.nav.js"></script>
         <script src="Home/js/jquery.prettyPhoto.js"></script>
-        <script src="Home/js/isotope.js"></script>
-        <script src="Home/js/jquery.flexslider.js"></script>
-        <script src="Home/js/inview.js"></script>
-        <script src="Home/js/animate.js"></script>
-        <script src="Home/js/custom.js?v=1.2"></script>
 
 
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdSl9Pfp6ey5lrsgNGUmU2hB2zrcmJHtI"></script>

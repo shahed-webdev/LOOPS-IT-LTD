@@ -12,12 +12,12 @@
 
    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  
+   <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+   <script src="~/bootstrap/js/bootstrap.min.js"></script>
 
-   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-   <script src="/bootstrap/js/bootstrap.min.js"></script>
-
-   <link href="CSS/Basic.css" rel="stylesheet" />
-   <link href="CSS/Gridview.css" rel="stylesheet" />
+   <link href="~/CSS/Basic.css" rel="stylesheet" />
+   <link href="~/CSS/Gridview.css" rel="stylesheet" />
 
    <asp:ContentPlaceHolder ID="head" runat="server" />
 </head>
@@ -74,9 +74,6 @@
          </div>
 
       </div>
-
-
-
    </form>
 </body>
 </html>
