@@ -1,0 +1,14 @@
+﻿
+
+@page { margin: 0.5cm; }
+
+@media print {
+ #Side_Nav, .btn, footer, .NoPrint,.form-inline { display: none !important; }
+ body { background: none; }
+ .container-fluid { padding-left: 0; padding-right: 0; }
+ .Print-size { padding: 0; }
+ #Main_Contain { width: 100%; }
+
+ h3 { border-bottom: none; }
+
+}

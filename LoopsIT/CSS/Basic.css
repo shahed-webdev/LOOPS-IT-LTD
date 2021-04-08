@@ -1,0 +1,125 @@
+﻿
+
+a { cursor:pointer;}
+h1,
+h3,
+h4,
+h5,
+h6 { font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform: uppercase; font-weight: 400;}
+h3 { border-bottom: 1px solid #9aa4af; color: #3f4954; margin-bottom: 10px; margin-top: 0; padding: 0 0 5px; }
+
+html, body { height: 100%; min-width: 100%; margin: 0; padding: 0; border: 0; }
+body {background: #fbfbfb url("Image/Body_BG.png") repeat scroll 0 0; font-weight: 300; font-size: 14px; line-height: 1; color: #333; }
+
+.well { background-color: #fff; }
+.img-responsive { margin: 0 auto; }
+
+.navbar-nav > li > a { padding-bottom: 4px; padding-top: 4px; }
+
+.Top-header { background-color: #fff; border-bottom: 2px solid #dfdfdf; margin-bottom: 15px; padding: 10px 0;}
+
+#Side_Nav .form-inline { margin-bottom: 0; }
+#Side_Nav .btn { border-radius: 0; }
+#Side_Nav .btn-info { background-color: #f7f7f7; border: medium none; color: #767676; margin-top: 5px; width: 100%; text-align:left; }
+
+.Logo img {height:42px; }
+
+.Admin-Photo img {height:35px; border:1px solid #ddd;}
+.Admin-Photo a { color: #5f5f5f; font-size: 14px; }
+.Admin-Photo i { color: #5f5f5f; font-size: 14px; }
+
+
+.Admin-Name h4{margin:0;}
+
+
+/*---Treeview Style----------*/
+.navbar-default { background-color: #fff; border-color: #e4e4e4; -webkit-box-shadow: 0px 0px 7px 0px #cfcfcf; -moz-box-shadow: 0px 0px 7px 0px #cfcfcf; box-shadow: 0px 0px 7px 0px #cfcfcf; }
+.navbar-collapse { padding-left: 5px; padding-right: 0; }
+#myNavbar a:hover {color:#333}
+
+.rootNode,.treeNode a {color:#767676; text-decoration:none}
+.rootNode {border-bottom: 1px solid #142638; border-top: 1px solid #54677a; font-size:17px; font-weight:bold; padding: 10px 8px 12px 0; width: 100%; }
+.rootNode:hover { background-color:#ddd}
+
+.treeNode { color: #000; outline: medium none; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); width: 100%; padding:15px 4px; border-bottom: 1px solid #d0d0d0; border-top: 1px solid #fcfcfc;}
+.treeNode:hover { background-color:#ddd}
+
+.leafNode{padding:7px 0;}
+.leafNode a{ font-size: 12px; color:#666}
+.leafNode:hover { text-decoration:none;}
+
+.Selected_Node { color:#00A269 !important}
+/*---End Treeview Style----------*/
+
+#Main_Contain { min-height:500px;}
+/*-------------------------foter------------------------*/
+footer { background-color:#01BF86; margin-top: 50px; padding: 20px 0;}
+
+.CopyRight {text-align: center; }
+.CopyRight a{  color: #fff !important;}
+
+/*-------------checkbox---------------*/
+input[type=checkbox] { display: none; }
+input[type=checkbox] + label { padding-left: 29px; display: inline-block; height: 21px; line-height: 24px; background-repeat: no-repeat; background-position: 7px 3px; vertical-align: middle; cursor: pointer; background-image: url(Image/CheckBox.png); -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; z-index: 20000; }
+input[type=checkbox]:checked + label { background-position: 7px -19px; background-image: url(Image/CheckBox.png); -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+/*-----------radio button---------------*/
+input[type=radio] { display: none; }
+input[type=radio] + label { font-weight:normal; padding-left: 26px; height: 21px; display: inline-block; line-height: 21px; background-repeat: no-repeat; background-position: 5px 4px; font-size:13px; vertical-align: middle; cursor: pointer; background-image: url(Image/RadioButton.png); -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+input[type=radio]:checked + label { background-position: 5px -16px; background-image: url(Image/RadioButton.png); -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+/*----------End radio button----------*/
+
+.btn-primary { background-color: #01bf86; border-color: #01bf86; }
+.btn-primary:hover { background-color:#20CE95; border-color: #01bf86;}
+.btn-primary.focus, .btn-primary:focus{  background-color: #01bf86; border-color: #01bf86;}
+
+.EroorStar { color: red; }
+
+.selected{ background-color:#c6d7bf;}
+
+/*------------update progress----------------*/
+#progress_BG { position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; z-index: 120; background-color: #000; filter: alpha(opacity=40); opacity: 0.7; display: none; }
+#progress { position: fixed; top: 40%; left: 46%; text-align: center; z-index: 200; }
+#progress b { color: hsl(200,100%,18%); background-color: #ddd; padding: 2px 5px; }
+
+
+/***Bootstrap Modal****/
+.modal-content { position: relative; background-color: #ffffff;  border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 0; outline: none; -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5); box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5); background-clip: padding-box; }
+.modal-header { background-color:#01BF86; border-bottom: 1px solid #01BF86; min-height: 16.4286px; padding: 10px 15px; color: #fff; }
+.close { float: right; font-size: 21px; font-weight: 700; line-height: 1; color: #000; text-shadow: 0 1px 0 #fff; opacity: .2; filter: alpha(opacity=20); }
+.modal-body { position: relative; padding: 20px; overflow: auto;}
+.modal-footer { padding: 19px 20px 20px; margin-top: 0; text-align: right; border-top: 1px solid #e5e5e5; }
+
+
+/*Panel tabs*/
+.panel-primary > .panel-heading { background-color:#01BF86; border-color: #000; }
+.panel-primary { border-color: #ddd; }
+.panel-tabs {clear: both; border-bottom: 1px solid transparent; }
+.panel-tabs > li { float: left; margin-bottom: -1px; }
+.panel-tabs > li > a { margin-right: 2px; margin-top: 4px; line-height: .85; border: 1px solid transparent; border-radius: 4px 4px 0 0; color: #ffffff; }
+.panel-tabs > li > a:hover { border-color: transparent; color: #ffffff; background-color: transparent; }
+.panel-tabs > li.active > a,.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus { color: #fff; cursor: default; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; background-color: rgba(255,255,255, .23); border-bottom-color: transparent; }
+
+.form-inline .form-group{ margin-bottom:15px;}
+
+.datepicker { padding: 6px 12px; }
+
+
+/*--Back to top----*/
+#toTop { background-color: #000; border-color: #000; bottom: 10px; cursor: pointer; display: none; position: fixed; right: 10px; }
+
+@media (max-width: 768px) {
+   h3 {font-size: 19px;}
+   #Main_Contain { min-height:200px;}
+  .Top-header { padding: 10px 0; }
+
+.Print-size img  {margin-top:10px;}
+#Side_Nav { padding-left:0; padding-right:0; }
+
+.Admin-p-img img { height: 45px; width: 45px; }
+.Admin-p-img h4 { font-size: 12px; margin-bottom: 0; margin-top: 0;}
+}
+
+
+

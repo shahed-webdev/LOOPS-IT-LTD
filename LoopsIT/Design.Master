@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Design.master.cs" Inherits="LoopsIT.Design" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   <title>Loops IT</title>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="robots" content="default, index, follow" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+   <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+   <link href="CSS/Basic.css" rel="stylesheet" />
+   <link href="CSS/Gridview.css" rel="stylesheet" />
+
+   <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+
+<body>
+   <form id="Form1" runat="server">
+      <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+      <div class="headerBack">
+         <!--headerBack-->
+         <div class="ManuWraper">
+            <div class="Name">
+               Loops IT
+            </div>
+            <div class="UserPanel">
+               <!--header_top for login-->
+               <asp:LoginView ID="CustomerLoginView" runat="server">
+                  <AnonymousTemplate>
+                     <table>
+                        <tr>
+                           <td><a href="../../Default.aspx">Login</a></td>
+                        </tr>
+                     </table>
+
+                  </AnonymousTemplate>
+                  <LoggedInTemplate>
+                     <div class="Username">Welcome</div>
+
+                     <asp:LoginName ID="CustomerLoginName" runat="server" CssClass="Username" />
+                     <br />
+                     <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutPageUrl="~/Default.aspx"
+                        LogoutAction="Redirect" CssClass="login_Out" OnLoggingOut="LoginStatus1_LoggingOut" />
+                     |
+                    <a href="../../Profile_Redirect.aspx">Profile</a>
+                  </LoggedInTemplate>
+               </asp:LoginView>
+            </div>
+            <!--End header_top-->
+
+         </div>
+      </div>
+
+      <div class="Main_Wraper">
+         <div class="Site_Navigation">
+   <a href="Signup.aspx">Signup</a><br />
+   <a href="Create_Delete_Role.aspx">Create_Delete_Role</a><br />
+   <a href="Manage_Roles.aspx">Manage_Roles</a><br />
+   <a href="Manage_Users.aspx">Manage_Users</a><br />
+   <a href="Link/Category.aspx">Page Link</a>
+         </div>
+         <div class="maincontain">
+            <!--maincontain-->
+            <asp:ContentPlaceHolder ID="body" runat="server" />
+         </div>
+
+      </div>
+
+
+
+   </form>
+</body>
+</html>

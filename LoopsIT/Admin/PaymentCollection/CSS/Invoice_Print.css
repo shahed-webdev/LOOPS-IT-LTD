@@ -1,0 +1,10 @@
+﻿
+@page { margin: 0.1cm; }
+
+.Topspace1 {margin-top:20px; }
+.Topspace2 {margin-top:5px; }
+
+@media print {
+ .headerBack { display: none; }
+ #In-Print { padding-left: 0; padding-right: 0; }
+}

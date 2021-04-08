@@ -1,0 +1,22 @@
+﻿
+.db_box { padding: 15px 3px; box-shadow: 0 1px 3px rgba(33, 33, 33, 0.2); margin-bottom: 15px; min-height: 100px; text-align: center; color: #fff; }
+.db_box h4 { margin: 15px 0 5px;  font-size: 16px;}
+.db_box span { font-size: 15px; }
+
+.investment { background-color: #26C6DA; }
+.Expense { background-color: #FF5652; }
+.Revenue { background-color: #39BBB0; }
+.Balance { background-color: #7460EE; }
+.Savings { background-color: #398BF7; }
+.Net { background-color: #06D79C; }
+
+.Year1 { background-color: #2196f3; color: #fff; }
+.Year2 { background-color: #26a69a; color: #fff; }
+.Year3 { background-color: #8bc34a; color: #fff; }
+.Year4 { background-color: #c0ca33; color: #fff; }
+.Year5 { background-color: #455a64; color: #fff; }
+.Year6 { background-color: #7e57c2; color: #fff; }
+
+.mGrid td {font-size: 14px; padding: 14px 2px; }
+.mGrid th { background-color: #3f51b5; font-size: 14px; padding: 13px 2px; }
+.mGrid th a{ color: #fff;}

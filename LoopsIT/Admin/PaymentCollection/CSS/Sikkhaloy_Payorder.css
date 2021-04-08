@@ -1,0 +1,13 @@
+﻿
+.db_box { padding: 15px 3px; box-shadow: 0 1px 3px rgba(33, 33, 33, 0.2); margin-bottom: 15px; min-height: 100px; text-align: center; color: #fff; }
+.db_box h4 { margin: 15px 0 5px;  font-size: 16px;}
+.db_box span { font-size: 15px; }
+
+.Instition{ background-color: #26C6DA; }
+.Total_Stu{ background-color: #FF5652; }
+.service_charge{ background-color: #39BBB0; }
+.Per_Stu_Avg{ background-color: #7460EE; }
+
+.Ins_Not_Added {background-color:#e57373; color:#fff;}
+.Payorder_Done {background-color: #795548; color:#fff;}
+
